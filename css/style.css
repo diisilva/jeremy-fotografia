@@ -5,8 +5,7 @@
 }
 
 .header-gradient {
-    background: #090909
-        /*linear-gradient(to right, #000, #333);*/
+    background: #090909;
 }
 
 .navbar-brand {
@@ -43,19 +42,32 @@
 
 .card {
     max-width: 600px;
-    /* Aumenta o tamanho do card */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
-.card-img-top {
-    height: 400px;
-    /* Aumenta a altura da imagem do card */
-    object-fit: cover;
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.card-text {
+    flex-grow: 1;
 }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
     border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    /* Ajuste a posição vertical conforme necessário */
 }
 
 .icone-facilidade img {

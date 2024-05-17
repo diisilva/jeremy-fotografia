@@ -1,0 +1,81 @@
+@media (min-width: 500px) {
+    .carousel-img {
+        max-height: 500vh;
+    }
+}
+
+.header-gradient {
+    background: #090909
+        /*linear-gradient(to right, #000, #333);*/
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.brand-name {
+    color: white;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.row {
+    background-color: #090909;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.card {
+    max-width: 600px;
+    /* Aumenta o tamanho do card */
+}
+
+.card-img-top {
+    height: 400px;
+    /* Aumenta a altura da imagem do card */
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.icone-facilidade img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.newsletter {
+    border-top: 2px solid #fff;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid #444;
+}

@@ -1,3 +1,13 @@
+.logo-container {
+    position: relative;
+    left: 70px; /* Ajuste este valor conforme necessário */
+}
+
+
+.logo-img {
+    height: 90px; /* Mantém o tamanho da logo */
+}
+
 .carousel-img {
     max-height: 1200px;
     width: 100%;

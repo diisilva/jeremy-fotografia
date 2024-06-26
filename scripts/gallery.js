@@ -97,7 +97,7 @@ function loadFooter() {
                     </div>
                     <div class="col-4 my-2 text-center">
                         <div class="icone-facilidade">
-                            <a href=" " target="_blank">
+                            <a href="https://www.instagram.com/jeremydiasfotografia" target="_blank">
                                 <img src="./images/instagram_2.png" alt="Ícone Instagram" class="img-fluid">
                             </a>
                         </div>

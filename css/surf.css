@@ -1,0 +1,146 @@
+/* CSS para surf.html */
+
+@media (min-width: 500px) {
+    .gallery-img {
+        max-height: 500vh;
+    }
+}
+
+.header-gradient {
+    background: #090909;
+}
+
+.modal-instruction {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.navbar-title {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.brand-name {
+    color: white;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.row {
+    color: #fff;
+    padding: 40px 0;
+}
+
+.gallery-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    /* Ajuste a posição vertical conforme necessário */
+}
+
+.modal-dialog {
+    max-width: 90vw;
+    max-height: 90vh;
+    margin: auto;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    position: relative;
+}
+
+.modal-body img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 80vh;
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.nav-button.left {
+    left: 10px;
+}
+
+.nav-button.right {
+    right: 10px;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid #444;
+}
+
+.section-black-bg {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 10px; /* Diminuímos o padding para reduzir a altura */
+    max-width: 100vw; /* Aumentamos a largura para ocupar toda a largura da viewport */
+    margin: 0 auto; /* Centraliza a seção horizontalmente */
+}
+
+.icone-facilidade img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}

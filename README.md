@@ -3,7 +3,9 @@
 
 Bem-vindo ao repositório do site Jeremy Dias Fotografia. Este projeto foi desenvolvido para mostrar as incríveis fotografias e eventos capturados por Jeremy Dias.
 
-<img src="images/logo_2_v4.png" alt="Jeremy Dias Fotografia" width="300">
+<div align="center">
+  <img src="images/logo_2_v4.png" alt="Jeremy Dias Fotografia" width="300">
+</div>
 
 ## Índice
 

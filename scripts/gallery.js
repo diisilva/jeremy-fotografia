@@ -9,7 +9,7 @@ function loadGalleryImages(pageName, imageCount) {
 
     for (let i = 1; i <= imageCount; i++) {
         const img = document.createElement('img');
-        img.src = `images/${pageName}/${i}.JPG`; // Caminho da imagem (considerando a extensão .JPG)
+        img.src = `images/${pageName}/${i}.jpg`; // Caminho da imagem (considerando a extensão .JPG)
         img.alt = `${pageName} ${i}`; // Texto alternativo para a imagem
         img.classList.add('gallery-img'); // Adiciona uma classe para estilização
 
